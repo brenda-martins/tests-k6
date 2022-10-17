@@ -16,3 +16,9 @@
 - Controlled and constantly increases the user load respecting the application limit
 - Allows comparison of response times between different stages of load
 - Allows you to identify application behavior and bottlenecks without causing downtime
+
+#### Stress Test
+
+- Constantly increase the load, at regular intervals
+- Exceeds expectation or commom application consumption metric after some execution time
+- The objective is to verify how the application behaves after receiving a load above which it can respond
