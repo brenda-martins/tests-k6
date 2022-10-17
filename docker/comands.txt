@@ -1,1 +1,2 @@
 RUN SCRIPT: docker run -i loadimpact/k6 run - <./scripts/script.js
+Controlling the load via line of code: docker run -i loadimpact/k6 run --vus 10 --duration 30s - <./scripts/script.js
