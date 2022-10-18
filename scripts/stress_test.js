@@ -12,7 +12,7 @@ export const options = {
         { duration: '1m', target: 6 },
         { duration: '30s', target: 8 }, // beyond the breaking point
         { duration: '1m', target: 8 },
-        { duration: '30', target: 0 }, // scale down. Recovery stage.
+        { duration: '30s', target: 0 }, // scale down. Recovery stage.
       ],
 }
 
